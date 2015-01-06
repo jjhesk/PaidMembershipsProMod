@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Paid Memberships Pro
+Plugin Name: Paid Memberships Pro Mod
 Plugin URI: https://github.com/jjhesk/PaidMembershipsProMod
 Description: Plugin to Handle Memberships
 Version: 1.8.15.5
