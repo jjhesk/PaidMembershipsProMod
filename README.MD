@@ -71,3 +71,22 @@ Please post it in the [WordPress support forum](http://wordpress.org/tags/paid-m
 
 ###My site is broken or blank or not letting me log in after activating Paid Memberships Pro Mod
 This is typically caused by a conflict with another plugin that is trying to redirect around the login/register pages or trying to redirect from HTTP to HTTPS, etc.
+
+##Example codes
+###Hook trigger after paypal or other payment gateway pass through the transaction and register user account
+```php
+   
+  add_action("pmpro_create_membership", "after_pro_paid_membership_user_registration", 5, 2);
+  
+  function after_pro_paid_membership_user_registration($level_id, $user_id){
+  /**
+  do something in here for user registration, normally the account has been setup and the only needed to do is to change the role of the person
+  
+  $user = new WP_User($user_id);
+  $user->remove_role('subscriber');
+  $user->add_role('__my___role___');
+  
+  **/
+  }
+            
+            
