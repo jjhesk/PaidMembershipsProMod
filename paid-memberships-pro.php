@@ -10,7 +10,7 @@ Author URI: https://github.com/jjhesk/PaidMembershipsProMod
 
 //version constant
 define("PMPRO_VERSION", "1.7.15.3");
-
+define("PMPRO_KEY","54ab90944e7b8a121c4a696");
 //if the session has been started yet, start it (ignore if running from command line)
 if(defined('STDIN') )
 {
