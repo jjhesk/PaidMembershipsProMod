@@ -1,19 +1,15 @@
 <?php
 /*
 Plugin Name: Paid Memberships Pro
-Plugin URI: http://www.paidmembershipspro.com
+Plugin URI: https://github.com/jjhesk/PaidMembershipsProMod
 Description: Plugin to Handle Memberships
-Version: 1.7.14.2
-Author: Stranger Studios
-Author URI: http://www.strangerstudios.com
-*/
-/*
-	Copyright 2011	Stranger Studios	(email : jason@strangerstudios.com)
-	GPLv2 Full license details in license.txt
+Version: 1.8.15.5
+Author: Stranger Studios, Hesk
+Author URI: https://github.com/jjhesk/PaidMembershipsProMod
 */
 
 //version constant
-define("PMPRO_VERSION", "1.7.14.2");
+define("PMPRO_VERSION", "1.7.15.3");
 
 //if the session has been started yet, start it (ignore if running from command line)
 if(defined('STDIN') )
