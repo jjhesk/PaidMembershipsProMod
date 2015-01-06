@@ -1,6 +1,5 @@
 ##Paid Memberships Pro Mod
 =================================
-Product key: 54ab90944e7b8a121c4a696e
 Contributors: strangerstudios, Hesk
 Tags: memberships, membership, authorize.net, ecommerce, paypal, stripe, braintree, restrict access, restrict content, directory site, payflowRequires at least: 4.0
 Tested up to: 4.0
