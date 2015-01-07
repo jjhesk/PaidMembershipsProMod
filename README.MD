@@ -1,4 +1,4 @@
-##Paid Memberships Pro Mod
+##Paid Memberships ProMod [![Code Climate](https://codeclimate.com/github/jjhesk/PaidMembershipsProMod/badges/gpa.svg)](https://codeclimate.com/github/jjhesk/PaidMembershipsProMod)
 =================================
 Contributors: strangerstudios, Hesk
 Tags: memberships, membership, authorize.net, ecommerce, paypal, stripe, braintree, restrict access, restrict content, directory site, payflowRequires at least: 4.0
